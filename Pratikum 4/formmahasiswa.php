@@ -12,7 +12,7 @@ class form
     public function setTextField($nama, $text)
     {
         $label = "<div class='wrapper'><label for='" . $nama . "'>" . $nama . "</label>";
-        $textField = "<input class='form-input' type='text' name='" . $nama . "' value='" . $text . "'></div>"; // Input field
+        $textField = "<input class='form-input' type='text' name='" . $nama . "' value='" . $text . "'></div>"; 
         array_push($this->fields, $label . $textField);
     }
 
