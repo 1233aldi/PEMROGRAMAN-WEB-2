@@ -8,8 +8,7 @@ class Home extends BaseController
     {
         return view('index');
     }
-
-    public function chart()
+    public function cart()
     {
         return view('cart');
     }
