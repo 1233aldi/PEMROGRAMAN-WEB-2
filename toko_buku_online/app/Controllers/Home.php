@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 namespace App\Controllers;
@@ -26,3 +27,33 @@ class Home extends BaseController
         return view('submit');
     }
 }
+=======
+<?php
+
+namespace App\Controllers;
+
+class Home extends BaseController
+{
+    public function index(): string
+    {
+        return view('index');
+    }
+
+    public function chart()
+    {
+        return view('cart');
+    }
+    public function search()
+    {
+        return view('search');
+    }
+    public function checkout()
+    {
+        return view('checkout');
+    }
+    public function submit()
+    {
+        return view('submit');
+    }
+}
+>>>>>>> f240109 (menambahkan tugas 11)

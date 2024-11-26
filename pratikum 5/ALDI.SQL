@@ -1,0 +1,1 @@
+Select *  from mahasiswa where ip>3.0

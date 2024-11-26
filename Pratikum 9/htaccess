@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 <IfMOdule mod_rewrite.c>
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)＄ index.php
 
+=======
+<IfMOdule mod_rewrite.c>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)＄ index.php
+
+>>>>>>> e0d8c63 (Menambahkan Tugas)
 <Ifmodule>
